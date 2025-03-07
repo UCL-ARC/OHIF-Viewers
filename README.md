@@ -1,3 +1,29 @@
+# Custom build of OHIF Viewer 3.9 release
+
+This branch has a custom build for the extendable_review_tool project and is the source for the images at https://hub.docker.com/repository/docker/acholyn/ert-ohif/general
+
+If configuration needs to be updated or changed, it should be done here and new docker images published for arm and amd.
+
+At present the build expects local dicom files but works through the dicomjson data source, which means that the ert app generates a json file with the respective paths to the files for the viewer to find.
+
+Below is the generic OHIF readme content
+
+◊
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 <!-- prettier-ignore-start -->
 <!-- markdownlint-disable -->
 <div align="center">

@@ -1,6 +1,10 @@
 # Packages
 node_modules
 
+# want to track these for the app
+!platform/app/.env
+!*/lib
+
 # Output
 build
 dist
