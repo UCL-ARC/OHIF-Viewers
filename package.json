@@ -64,8 +64,7 @@
     "link-list": "npm ls --depth=0 --link=true"
   },
   "dependencies": {
-    "execa": "^8.0.1",
-    "yarn": "^1.22.22"
+    "execa": "^8.0.1"
   },
   "optionalDependencies": {
     "@percy/cypress": "^3.1.1",
