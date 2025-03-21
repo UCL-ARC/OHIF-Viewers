@@ -52,7 +52,7 @@ COPY . .
 
 # To restore workspaces symlinks
 # this used to have --frozen-lockfile but it causes errors with the amd build
-RUN yarn install
+RUN yarn install --network-timeout 1000000
 
 ENV PATH /usr/src/app/node_modules/.bin:$PATH
 ENV QUICK_BUILD true
