@@ -46,7 +46,7 @@ COPY --from=json-copier /usr/src/app .
 
 # Run the install before copying the rest of the files
 RUN yarn config set workspaces-experimental true
-RUN yarn install
+RUN yarn install --network-timeout 1000000
 
 COPY . .
 
